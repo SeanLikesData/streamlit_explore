@@ -28,7 +28,8 @@ def create_map(gdf, lat,lon,zoom, style_function):
         ).add_to(m)
     return m
 
-st.title("My Map App Built with Streamlit and Folium")
+st.title("Exploring building map web apps with streamlit")
+st.subtitle("San Francisco Neighborhoods with zoom features and lat long inputs")
 
 lat = st.number_input("Latitude", value = 37.79048192546293)
 lon = st.number_input("Longitude", value = -122.3996870713028)
